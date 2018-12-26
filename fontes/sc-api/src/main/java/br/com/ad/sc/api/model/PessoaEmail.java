@@ -21,9 +21,6 @@ public class PessoaEmail {
 	
 	@Column(name="ST_PRINCIPAL")
 	private String stPrincipal;
-	
-	@Column(name="ID_PESSOA_FISICA")
-	private Long idPessoaFisica;
 
 	public Long getIdPessoaEmail() {
 		return idPessoaEmail;
@@ -48,18 +45,6 @@ public class PessoaEmail {
 	public void setStPrincipal(String stPrincipal) {
 		this.stPrincipal = stPrincipal;
 	}
-
-	public Long getIdPessoaFisica() {
-		return idPessoaFisica;
-	}
-
-	public void setIdPessoaFisica(Long idPessoaFisica) {
-		this.idPessoaFisica = idPessoaFisica;
-	}
-	
-	
-
-	
 
 		
 	
