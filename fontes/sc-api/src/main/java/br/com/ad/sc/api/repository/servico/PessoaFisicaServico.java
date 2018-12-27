@@ -50,9 +50,18 @@ public class PessoaFisicaServico {
 		}
 		
 		
-		return pessoaFisicaRepository.save(pessoaFisica);
-			
+		PessoaFisica pessoaFisicaSalva = pessoaFisicaRepository.save(pessoaFisica);
+		//atualizarIdPessoa(pessoaFisica, pessoaFisicaSalva.getIdPessoaFisica());
+		pessoaFisicaSalva = pessoaFisicaRepository.save(pessoaFisica);
+		return pessoaFisicaSalva;	
 		
 	}
+	
+//	private void atualizarIdPessoa(PessoaFisica pessoa, Long id) {
+//		pessoa.getListaEmail().forEach(item->{
+//			pessoa.setId(id);
+//		});
+//		
+//	}
 }
 	
