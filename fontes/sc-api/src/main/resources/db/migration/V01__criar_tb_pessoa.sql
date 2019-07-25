@@ -1,1 +1,0 @@
---INSERT INTO `TB_PESSOA` VALUES (3,'F'),(4,'F');
