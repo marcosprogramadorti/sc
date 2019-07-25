@@ -1,2 +1,2 @@
-web: java -jar target/sc-0.0.1-SNAPSHOT.jar
+web: java -jar fontes/api-sc/target/sc-0.0.1-SNAPSHOT.jar
 
